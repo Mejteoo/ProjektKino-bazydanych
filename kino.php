@@ -22,9 +22,9 @@
         <?php
         // Połączenie z bazą danych
         $servername = "localhost";
-        $username = "root";
-        $password = "";
-        $dbname = "kino";
+        $username = "id17607196_root";
+        $password = "wX#y^4c42";
+        $dbname = "id17607196_kino";
         $conn = new mysqli($servername, $username, $password, $dbname);
 
         // Sprawdzenie połączenia z bazą danych

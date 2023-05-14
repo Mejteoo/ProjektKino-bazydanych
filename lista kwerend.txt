@@ -1,0 +1,34 @@
+Przykładowa lista kwerend do wykorzystania by sprawdzić, że strona naprawdę działa :)
+
+
+
+1.	Podaj tytuł i czas trwania filmu o nazwie Fernando:
+SELECT title, czas_trwania FROM film WHERE title = "Fernando";
+2.	Wybierz wszystkie filmy gatunku fantasy:
+SELECT * FROM film WHERE gatunek = 'Fantasy';
+3.	Podaj wszystkie tytuły filmów bez ograniczeń wiekowych:
+SELECT title FROM film WHERE ogr_wiek = "BO";
+4.	Wyświetl salę o największej liczbie miejsc:
+SELECT nazwa_sali, miejsca FROM sala ORDER BY miejsca DESC LIMIT 1;
+5.	Wypisz imię, nazwisko i nr telefonu klienta o id 5
+SELECT imie, nazwisko, telefon FROM klient WHERE klient.idklient = 5;
+6.	Wyświetl sumę miejsc we wszystkich salach:
+SELECT SUM(miejsca) FROM sala;
+7.	Podaj rok produkcji filmu „Atak paniki”.
+SELECT title, rok_prod FROM film WHERE title = "Atak paniki";
+8.	Wyświetl imię nazwisko i id rezerwacji klientów:
+SELECT rezerwacje.idrezerwacje, klient.imie, klient.nazwisko FROM rezerwacje JOIN klient ON rezerwacje.klient_idklient = klient.idklient;
+9.	Wyświetl czas trwania filmu „Narzeczony na niby”.
+SELECT title, czas_trwania FROM film WHERE title = "Narzeczony na niby";
+10.	Wyświetl jakiego gatunku jest film „Plan B”.
+SELECT title, gatunek FROM film WHERE title = "Plan B";
+11.	Podaj ile miejsca jest w Sali numer 3.
+SELECT idsala, miejsca FROM sala WHERE sala.idsala = "3";
+12.	Wypisz nazwy wszystkich dostępnych sal.
+13.	SELECT nazwa_sali FROM sala;
+14.	Wyświetl wszystkie filmy, których reżyserem jest Rian Johnson.
+SELECT * FROM film WHERE rezyser = "Rian Johnson";
+15.	Podaj imię i nazwisko managera.
+SELECT imie, nazwisko FROM admin WHERE stanowisko = "manager";
+16.	Wyświetl nazwiska i nr tel wszystkich klientów
+SELECT nazwisko, telefon FROM klient;
