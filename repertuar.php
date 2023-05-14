@@ -13,6 +13,7 @@
             <li><a href="kino.php">Strona główna</a></li>
             <li><a href="repertuar.php">Repertuar</a></li>
             <li><a href="kontakt.html">Kontakt</a></li>
+            <li><a href="kwerendy.php">Kwerendy</a></li>
         </ul>
     </nav>
 </header>
