@@ -1,6 +1,6 @@
 **Projekt Kino**
 
-Mateusz Pilszczek 4G ZEG
+Mateusz 4G
 
 # Spis treści
 [Dokumentacja	2](#_toc134908499)
